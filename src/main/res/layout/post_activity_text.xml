@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/top_container"
+            android:layout_height="wrap_content"
+            android:layout_width="fill_parent"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/post_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="#5a5a5a"
+                android:textSize="22sp"
+                android:layout_gravity="center|left"
+                android:fontFamily="sans-serif-light"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_height="40dp"
+            android:layout_width="fill_parent"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/post_like"
+                android:text="@string/post_like"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/post_switcher"
+                android:text="@string/post_switcher"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"/>
+
+            <TextView
+                android:id="@+id/post_comment"
+                android:text="@string/post_comment"
+                android:layout_height="fill_parent"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:gravity="center"/>
+        </LinearLayout>
+
+        <View
+                android:layout_width="fill_parent"
+                android:layout_height="1dp"
+                android:background="@color/stroke"/>
+
+        <LinearLayout
+            android:id="@+id/comments_wrapper"
+            android:layout_height="fill_parent"
+            android:layout_width="match_parent"
+            android:background="#F2F2F2">
+
+            <ListView
+                android:id="@+id/comments"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@android:color/transparent"
+                android:overScrollMode="never"
+                android:scrollbars="none"
+                android:dividerHeight="10dp"/>
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>

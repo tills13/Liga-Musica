@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_id">603059626403225</string>
+    <string name="group_id">251524131531060</string>
+    <string name="app_name">Liga Musica</string>
+
+    <string name="developer_key">AIzaSyBtV2eoEcg5C5Wg46S0pMkas1TypnqkKBI</string>
+
+    <string name="stream_title">Stream</string>
+
+    <string name="post_title"></string>
+    <string name="post_like">%d like(s)</string>
+    <string name="post_comment">%d comment(s)</string>
+    <string name="post_switcher">description</string>
+
+    <string name="action_login">login</string>
+    <string name="action_logout">logout</string>
+    <string name="action_refresh">refresh</string>
+    <string name="action_play">play</string>
+
+    <string name="splash_text">Liga Musica</string>
+</resources>
